@@ -2,3 +2,8 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+
+.active {
+    color: $primary-color;
+    border-bottom: 3px solid $primary-color;
+}

@@ -10,3 +10,41 @@
   margin: 0 auto;
 }
 
+.active {
+  color: #0182f9;
+  border-bottom: 3px solid #0182f9;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header div {
+  display: flex;
+}
+
+header div img {
+  width: 80px;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+header ul li {
+  margin: 0 20px;
+}
+
+header ul li:first-child {
+  margin-left: 60px;
+}
+
+header ul li a {
+  padding-bottom: 51px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+
