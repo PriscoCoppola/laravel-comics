@@ -59,7 +59,7 @@ header ul li:first-child {
 }
 
 header ul li a {
-  padding-bottom: 48px;
+  padding-bottom: 50px;
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
@@ -84,5 +84,36 @@ header ul li a {
 
 .main-content .cards .card div {
   margin-top: 1rem;
+}
+
+footer {
+  padding: 30px;
+  background-color: #303030;
+}
+
+footer .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .flex .border {
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #0182f9;
+}
+
+footer .flex .social {
+  display: flex;
+  align-items: center;
+}
+
+footer .flex .social .text {
+  min-width: 100px;
+  text-transform: uppercase;
+  color: #0182f9;
+}
+
+footer .flex .social img {
+  padding-left: 20px;
 }
 
