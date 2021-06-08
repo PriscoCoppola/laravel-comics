@@ -20,4 +20,10 @@ Route::get('/', function () {
 
     return view('home', ['cards' => $cards]);
 })->name('home');
+
+// NEWS
+Route::get('/news', function () {
+
+    return view('news');
+})->name('news');
  

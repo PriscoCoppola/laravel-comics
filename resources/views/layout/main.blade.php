@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Comics</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
 </head>
 <body>
     @include('partials/header')
