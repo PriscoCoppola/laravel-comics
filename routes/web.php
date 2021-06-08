@@ -15,5 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 // HOMEPAGE 
 Route::get('/', function () {
-    return view('home');
+
+    $cards = config('cards');
+    dump($cards);
+
+    return view('home', ['cards' => $cards]);
 })->name('home');
+ 

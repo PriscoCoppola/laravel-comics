@@ -7,3 +7,20 @@
     color: $primary-color;
     border-bottom: 3px solid $primary-color;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.button {
+    padding: 10px 80px;
+    background-color: $primary-color;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bar {
+    height: 30px;
+    background-color: $primary-color;
+}
